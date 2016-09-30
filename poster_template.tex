@@ -1,0 +1,56 @@
+\documentclass[17pt, a1paper]{tikzposter} 
+\usepackage{color}
+\definecolor{lgray}{rgb}{.8,.8,.8}
+\definecolor{dgray}{rgb}{.2,.2,.2}
+\definecolor{cOne}{rgb}{.3,.3,.3}
+\usepackage[sfdefault]{cabin}
+\usepackage[T1]{fontenc}
+\usepackage{courier}
+
+\usepackage{marvosym}
+\usepackage{framed}
+
+\usepackage{amsmath,amssymb}
+\usepackage{amsmath}
+
+\title{\parbox{.8\linewidth}{\centering  \textbf{Title}}}   \institute{Institute}
+\author{Authors}
+\usetheme{Simple}\usecolorstyle[colorOne=cOne, colorTwo=white, colorThree=white]{Russia}   
+\useblockstyle{Default}
+\usetitlestyle{Simple}
+
+\tikzposterlatexaffectionproofoff
+\begin{document}
+\maketitle[roundedcorners=0]
+
+\begin{columns}
+  \column{0.4}
+  
+  \block[roundedcorners=0]{\color{black}Introduction}  {}
+
+  \block[roundedcorners=0]{\color{black} What} {}
+
+  \column{0.6}
+  
+  \block[roundedcorners=0]{} {}
+  
+  \block[roundedcorners=0]{\color{black} Results} {}
+\end{columns}
+
+\begin{columns} 
+  \column{0.5}
+  
+  \block[roundedcorners=0]{\color{black} Ideas} {}
+  
+  \block[roundedcorners=0]{\color{black} Algorithm} {}
+  
+  \block[roundedcorners=0]{\color{black} Things} {}
+  
+  \column{0.5}
+  \block[roundedcorners=0]{\color{black} Something} {}
+  
+  \block[roundedcorners=0]{\color{black} Outlook} {}
+  \block[roundedcorners=00]{\color{black} Benefactors} {}
+\end{columns}
+
+\end{document}
