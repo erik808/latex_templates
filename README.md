@@ -1,2 +1,2 @@
-# latex_templates
-Latex Templates
+# Latex Templates
+Latex Templates!
